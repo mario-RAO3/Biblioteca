@@ -72,12 +72,11 @@ body {
 /* ---------- Encabezado ---------- */
 .portada {
   position: relative;
-   /* Para usar una foto: background-image: url("img/portada.jpg"); */
-   background-image: linear-gradient(160deg, var(--celeste) 0%, var(--celeste-hondo) 100%);
+   background-image: url("img/header.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px !important;
+    height: 400px !important;
     padding-inline: 1.25rem;
 }
 :root[data-theme="dark"] .portada,
@@ -92,7 +91,7 @@ body {
 .etiqueta {
   display: inline-block;
   background: var(--amarillo);
-  color: #3a2c00;
+  color: #000000;
   font-weight: 700;
   font-size: .78rem;
   letter-spacing: .08em;
